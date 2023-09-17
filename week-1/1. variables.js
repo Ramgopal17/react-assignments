@@ -19,3 +19,35 @@ Explore objects:
  - Create an object representing a person with properties like name, age, and country.
  - Write a function that takes a person object as an argument and logs their information.
 */
+
+
+// 1.solution1 
+let name="Ram"
+console.log(name)
+
+let age=26
+console.log(age)
+
+
+// solution2
+let a="1"
+let b =true
+let c=4
+console.log(typeof(Number(a)))
+console.log(typeof(b))
+console.log(typeof(c))
+
+
+// Solution3
+var personalInfo= {
+    name: "Ram",
+    age:"26",
+    country:"India"
+
+} 
+
+function printIt(personalInfo){
+    return personalInfo
+}
+
+console.log(printIt(personalInfo))
